@@ -3,8 +3,8 @@ from openai import AsyncOpenAI
 
 # 1. 使用异步客户端 AsyncOpenAI
 client = AsyncOpenAI(
-    api_key="sk-22c087d4fd854f0fb8915d5dea0a5652",             # 替换为你的真实 API Key
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"   # 替换为你的 API 服务地址
+    api_key="",             # 替换为你的真实 API Key
+    base_url=""   # 替换为你的 API 服务地址
 )
 
 async def compute_score(solution_str: str, **kwargs) -> float:
